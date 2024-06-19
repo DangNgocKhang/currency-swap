@@ -78,10 +78,10 @@ const HomeMbl = (): ReactElement => {
         <div className="flex-1 flex flex-col items-center mb-6">
           <label className="shrink-0 font-Rowdies text-2xl mb-4 font-normal text-fancy-bg-blue-dark flex justify-center items-center">
             AMOUNT TO SEND
-            <BsQuestionCircle
+{/*             <BsQuestionCircle
               className="ml-2 text-2xl"
               title="Enter the amount to deposit to swap assets"
-            />
+            /> */}
           </label>
           <div className="relative flex flex-1 drop-shadow-lg ">
             <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
