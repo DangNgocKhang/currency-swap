@@ -100,7 +100,7 @@ const HomeMbl = (): ReactElement => {
               <div className="h-full flex justify-between items-center">
                 <Image
                   src={`../tokens/${sendToken.currency}.svg`}
-                  alt={sendToken.currency}
+                  alt="SVG"
                   width={60}
                   height={60}
                   className="h-full aspect-square p-2"
@@ -135,7 +135,7 @@ const HomeMbl = (): ReactElement => {
               <div className="h-full  flex justify-between items-center">
                 <Image
                   src={`../tokens/${receiveToken.currency}.svg`}
-                  alt={receiveToken.currency}
+                  alt="SVG"
                   width={60}
                   height={60}
                   className="h-full aspect-square p-2"

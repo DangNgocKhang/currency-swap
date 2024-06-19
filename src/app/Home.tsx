@@ -120,7 +120,7 @@ const Home = (): ReactElement => {
                 <span className="flex-1">{sendToken.currency}</span>
                 <Image
                   src={`../tokens/${sendToken.currency}.svg`}
-                  alt={sendToken.currency}
+                  alt="SVG"
                   width={200}
                   height={200}
                   className="h-full aspect-square p-4"
@@ -160,7 +160,7 @@ const Home = (): ReactElement => {
                 <span className="flex-1">{receiveToken.currency}</span>
                 <Image
                   src={`../tokens/${receiveToken.currency}.svg`}
-                  alt={receiveToken.currency}
+                  alt="SVG"
                   width={200}
                   height={200}
                   className="h-full aspect-square p-4"
