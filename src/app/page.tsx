@@ -28,7 +28,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="h-screen w-screen overflow-hidden flex flex-col">
+    <div className="h-[100dvh] w-[100dvw] md:h-screen md:w-screen overflow-hidden flex flex-col">
       <div className="h-max w-full text-8xl md:text-9xl font-Rowdies text-center relative top-20 md:flex md:justify-center md:items-center animate-fade-up animate-duration-[2000ms]">
         <div className="bg-gradient-to-r from-fancy-bg-blue-dark via-fancy-green to-fancy-yellow-dark inline-block text-transparent bg-clip-text ">
           SWAP

@@ -59,7 +59,7 @@ const HomeMbl = (): ReactElement => {
   };
 
   return (
-    <div className="flex-1  mt-32 font-semibold text-2xl ">
+    <div className="flex-1 mt-32 font-semibold text-2xl ">
       {isOpenSelectSendToken && (
         <ListTokenMbl
           setToken={setSendToken}
